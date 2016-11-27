@@ -240,19 +240,25 @@ html,body{
     opacity: 0;
 }
 .page3 span:nth-child(10){
-    left: .6rem;
+    left: 1rem;
     top:1.6rem;
     z-index: 3;
 }
 .page3 span:nth-child(11){
-    right: .7rem;
-    top:1.6rem;
+    width: 5.2rem;
+    left: 1rem;
+    top:2.5rem;
     z-index: 3;
 }
 .page3 span:nth-child(12){
+    left: 1rem;
+    top:5rem;
+    z-index: 3;
+}
+.page3 span:nth-child(13){
     width: 5.2rem;
-    left: .6rem;
-    top:2.5rem;
+    left: 1rem;
+    top:5.9rem;
     z-index: 3;
 }
 
@@ -286,21 +292,21 @@ html,body{
     color: #888888;
     position: absolute;
     z-index: 10;
-    top: 1rem;
+    top: .8rem;
     left: 50%;
-    margin-left: -2.9rem;
+    margin-left: -2.5rem;
     opacity: 0;
 }
 .page4 .comment{
     width: 5.8rem;
-    font-size: .3rem;
+    font-size: .25rem;
     line-height: .4rem;
     color: #888888;
     position: absolute;
     z-index: 10;
-    top: 4.8rem;
+    top: 4.5rem;
     left: 50%;
-    margin-left: -2.9rem;
+    margin-left: -2.5rem;
     opacity: 0;
 }
 
@@ -390,7 +396,7 @@ html,body{
     -webkit-animation:bounceInLeft 1s 1s both;
     animation:bounceInLeft 1s 1s both;
 }
-#page3 img:nth-child(6),#page3 img:nth-child(8),#page3 span:nth-child(12),#page5 img:nth-child(1){
+#page3 img:nth-child(6),#page3 img:nth-child(8),#page3 span:nth-child(12),#page3 span:nth-child(13),#page5 img:nth-child(1){
     -webkit-animation:bounceInRight 1s 1s both;
     animation:bounceInRight 1s 1s both;
 }
